@@ -13,7 +13,7 @@ _**1 Add Batteries Endpoint**_
 
     Endpoint: /api/power-source/add
 
-    Full URL: http://194.233.65.212:8083/api/power-source/add (replace localhost by the IP address of the server)
+    Full URL: http://194.233.65.212:8083/api/power-source/add (replace the IP address of the server by localhost for a local run)
 
     Description: This endpoint accepts a list of batteries in the HTTP request body. Each battery must include the following
 
@@ -27,7 +27,7 @@ _**2 Get Batteries by Postcode Range Endpoint**_
 
     Endpoint: /api/power-source/batteries
 
-    Full URL: http://194.233.65.212:8083/api/power-source/batteries (replace localhost by the IP address of the server)
+    Full URL: http://194.233.65.212:8083/api/power-source/batteries (replace the IP address of the server by localhost for a local run)
 
     Description: This endpoint receives a postcode range as parameters and returns a response containing a list of battery names
     that fall within the specified postcode range, sorted alphabetically. Additionally, the response includes statistical information
